@@ -22,7 +22,7 @@ header{
     width: 35px;
 }
 .header-contact{
-    width:85%;
+    width:100vw;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -121,7 +121,10 @@ header{
     text-align: center;
     height: 60px;
 }
-
+.more{
+    height:48px;
+    display: none;
+}
 .boxes{
     display: flex;
     gap:1rem;
@@ -411,7 +414,6 @@ header{
     }
     #message{
        width: auto;
-       
     }
     .header-contact-content1{
         flex-direction:column;
@@ -432,11 +434,12 @@ header{
         height: 50vh;
         width: 100vw;
     }
+    
     .welcome-text1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .welcome-text2{
-        font-size: 30px;
+        font-size: 20px;
     }
     .btnGetStarted{
         width:auto;
@@ -510,5 +513,106 @@ header{
     .welcome-intro{
         position: absolute;
         top: 50%;
+    }
+    .fourth-box{
+        height: 300px;
+        width: 300px;
+    }
+    .third-box{
+        height: 350px;  
+        width: 300px;
+        
+    }
+    
+}
+@media(max-width:800px){
+    .main-heading{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .main-heading-content{
+        font-size: 15px;
+        max-width: 92vw;
+    }
+    .small-icon{
+        height: 30px;
+        width: 30px;
+    }
+    .small-content-icon{
+        height: 35px;
+        width: 35px;
+    }
+    .small-title{
+        font-size: 20px;
+    }
+    .small-title-desc{
+        font-size: 15px;
+    }
+    .third-box{
+        height: 200px;
+        width: 200px;
+    }
+    .fourth-section-title{
+        font-size: 20px;
+    }
+    .fourth-section-desc{
+        font-size: 15px;
+    }
+    .fourth-box{
+        height: 200px;
+        width: 200px;
+    }
+    .fourth-box-title{
+        font-size: 20px;
+    }
+    .fourth-box-desc{
+        font-size: 10px;
+
+    }
+    .fourth-box-img{
+        height: 40px;
+        width: 40px;
+    }
+    .option{
+        display: none;
+    }
+    .fifth-section{
+        width: 100vw;
+    }
+    .fifth-section-title{
+        font-size: 20px;
+    }
+    .fifth-section-desc{
+        font-size: 10px;
+    }
+    .fifth-section-form{
+        align-items: start;
+    }
+    .yourName{
+        height: 30px;
+        width: 250px;
+    }
+    .more{
+        display:block;
+        align-content: center;
+    }
+    .btnText{
+        display: none;
+    }
+    .nav-bar{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        align-items: center;
+    }
+    .nav-option{
+        width: 48px;
+        height: 48px;
+        align-items: center;
+        justify-content: center;
+        align-content: start;
+    }
+    .nav-title{
+        margin: none;
     }
 }
