@@ -132,8 +132,8 @@ header{
 .box0{
     padding:20;
     background-color:#206dc2 ;
-    height:500px;
-    width:500px;
+    height:350px;
+    width:350px;
     padding: 40px;
     border-radius: 23px;
 }
@@ -142,13 +142,13 @@ header{
 }
 .box0 .box-title{
     font-weight: 900;
-    font-size: 40px;
+    font-size: 30px;
 }
 .box1{
     padding:20;
     background-color:whitesmoke ;
-    height:400px;
-    width:400px;
+    height:300px;
+    width:300px;
     padding: 40px;
     border-radius: 23px;
     display: flex;
@@ -167,9 +167,9 @@ header{
     justify-content: center;
 }
 .btnLearn-content{
-    font-size: 35px;
+    font-size: 20px;
     background-color: #4d89cb;
-    padding:15px;
+    padding:10px;
     border-radius: 40px;;
     text-align: center;
     margin-top: 50px;
@@ -313,8 +313,8 @@ header{
     text-align: center;
 }
 .fourth-box{
-    height: 600px;
-    width: 700px;
+    height: 400px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -324,7 +324,7 @@ header{
     padding:30px;
 }
 .fourth-box-img{
-    height:100px;
+    height:80px;
     background-color: #206dc2;
     padding: 10px;
     border-radius: 13px;
@@ -334,7 +334,7 @@ header{
 }
 
 .fourth-box-title{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
 }
 .fourth-box-desc{
