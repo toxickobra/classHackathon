@@ -103,11 +103,11 @@ header{
 .welcome-text1{
     font-weight: 800;
     color:#2b4258;
-    font-size: 60px;
+    font-size: 50px;
 }
 .welcome-text2{
     font-weight:600;
-    font-size: 60px;
+    font-size: 50px;
     color:#2b4258
 }
 .btnGetStarted{
@@ -160,6 +160,7 @@ header{
     color:black;
     display: flex;
     flex-wrap:wrap;
+    font-size: 12px;
     
 }
 .btnLearn{
@@ -184,7 +185,7 @@ header{
     display: flex;
     flex-wrap:wrap;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 20px;
 }
 .note-img{
     height:60px;
@@ -208,11 +209,12 @@ header{
     margin-bottom: 100px;;
 }
 .main-heading{
-    font-size: 50px;
+    font-size: 35px;
     color:#254359;
+    margin-bottom: 10px;
 }
 .main-heading-content{
-    font-size: 30px;
+    font-size: 20px;
     color:#254359;
     max-width: 50vw;
 }
@@ -229,12 +231,12 @@ header{
     gap:2rem;
 }
 .small-icon{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 .small-content-icon{
-    height:130px;
-    width: 130px;
+    height:100px;
+    width: 100px;
     border: 3px solid #86bceb;
     border-radius: 50% 50%;
     display: flex;
@@ -247,8 +249,11 @@ header{
     justify-content: center;
     gap:2rem;
 }
+.small-title{
+    font-size:30px;
+}
 .small-title-desc{
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
     padding-right: 20px;
@@ -274,10 +279,10 @@ header{
     position: relative;
 }
 .third-box-count{
-    font-size: 60px;
+    font-size: 40px;
 }
 .third-box-title{
-    font-size: 30px;
+    font-size: 25px;
 }
 .third-box-img{
     height: 80px;
@@ -304,12 +309,12 @@ header{
     align-items: center;
 }
 .fourth-section-title{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
     color: #2b4057;
 }
 .fourth-section-desc{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 .fourth-box{
@@ -334,11 +339,11 @@ header{
 }
 
 .fourth-box-title{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 }
 .fourth-box-desc{
-    font-size: 25px;
+    font-size: 15px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -353,12 +358,12 @@ header{
     background-color: #eff5f9;
 }
 .fifth-section-title{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 500;
     color: #254359;
 }
 .fifth-section-desc{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 .fifth-section-form{
@@ -379,13 +384,13 @@ header{
 }
 .yourName{
     padding:20px;
-    font-size: 25px;
+    font-size: 15px;
 }
 .yourName::placeholder{
-    font-size: 25px;
+    font-size: 15px;
 }
 #message::placeholder{
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .second-section{
